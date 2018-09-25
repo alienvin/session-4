@@ -4,10 +4,20 @@
 
 html, body {
 	margin: 0;
+	font-family: 'Playfair Display', serif 
 }
 
 header, footer {
+	color: white;
+	margin-top: 10px; 
+	background-color: #622070; 
+	padding-top: 10px;  
+	border-style: double;
+	border-color: black;
+}
 
+footer {
+	text-align: center;
 }
 
 .centered {
@@ -15,11 +25,11 @@ header, footer {
 }
 
 header .subtitle {
-
+	color: white;
 }
 
 h1 {
-
+	color: white; 
 }
 
 ul {
@@ -32,18 +42,23 @@ ul li {
 }
 
 main {
-
+	max-width: 660px;
+	margin: 10px auto;
+	background-color: white;
+	padding-top: 10px;
+	border-style: double;
 }
 
 section {
-
 }
 
 h2 {
-
+	color: #622070;
+	border-bottom: 1px solid #622070;
 }
 
 h3 {
+	color: #622070;
 
 }
 
@@ -52,17 +67,18 @@ p {
 }
 
 .details {
-
+	color: #622070;
 }
 
 .object {
-
+	font-weight : bold;
 }
 
 .object:after {
 	content: " | ";
 }
 
-footer h2 {
-
+footer, footer h2 {
+	color: white;
 }
+
